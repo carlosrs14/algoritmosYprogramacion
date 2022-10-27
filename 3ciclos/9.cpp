@@ -12,7 +12,7 @@ int i, numero, factor=1, n;
 
     for(i=1; i<=n; i++)
         factor*=i;
-    printf("El facotorial de %d es: %d\n\n", n,factor);
+    printf("El factorial de %d es: %d\n\n", n,factor);
     //system("pause");
     return 0;
 }
