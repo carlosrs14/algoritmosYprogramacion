@@ -7,13 +7,12 @@
 
 int main()
 {
-    int n1, n2, n3, n4;
-    float promedio;
+    float n1, n2, n3, n4, promedio;
     char nombre[15];
-    printf("Ingrese el nombre del alumno: ");
-    scanf("%s", &nombre);
-    printf("Ingrese las 4 notas del alumno: ");
-    scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
+    //printf("Ingrese el nombre del alumno: ");
+    //scanf("%s", &nombre);
+    printf("Ingrese las 4 notas del alumno:\n");
+    scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
 
     promedio = (float)(n1 + n2 + n3 + n4) / 4;
     printf("El promedio de las notas de %s ", nombre);
