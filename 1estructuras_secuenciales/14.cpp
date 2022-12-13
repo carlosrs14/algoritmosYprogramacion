@@ -6,7 +6,12 @@
 #include <stdlib.h>
 
 int main(){
-
+    float hectareas, acres, metros;
+    printf("Ingrese un area en acres y se expresará en hectareas: ");
+    scanf("%f", &acres);
+    metros= (float) acres*4047;
+    hectareas= (float) metros/10000;
+    printf("La cantidad ingresada en hectareas es %.2f\n\n", hectareas);
 
     return 0;
 }
