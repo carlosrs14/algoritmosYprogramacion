@@ -22,8 +22,9 @@ int main(){
             nuevo_sueldo=sueldo+sueldo*12/100;
             printf("Aumento de suledo del 12%%: %.2f\n\n", nuevo_sueldo);
         }
-
+        nomina+=nuevo_sueldo;
     }
+    printf("La nueva nomina total es: %.2f\n\n", nomina);
 
     return 0;
 }
